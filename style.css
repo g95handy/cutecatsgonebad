@@ -136,3 +136,31 @@ body {
 .image > img {
     border-radius: 8px;
 }
+
+/* quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote > .p1 {
+    display: flex;
+    flex-wrap: wrap;
+    color: #1f2937;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px;
+}
+
+.quote > .p2 {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 80px;
+}
