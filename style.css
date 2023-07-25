@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', Arial;
+}
+
+
+/* HEADER */
+
+
+.header, .hero {
+    display: flex;
+    color: #f9f8fa;
+    background-color: #1f2937;
+    padding: 1em 13em;
+    align-items: center;
+}
+
+.header-name {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-right: auto;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    gap: 1em;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 12px;
+    
+}
+
+/* HERO */
+
+.hero-text {
+    text-align: left;
+}
+.hero {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    height: 500px;
+    align-items: center;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
+    margin-top: -10px;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0px 0px 10px 0px;
+    
+}
+.hero button {
+    display: flexbox;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px, 50px, 0px, 0px;
+}
+
+.sidebyside-image {
+    display: flex;
+    flex-basis: auto;
+    height: 250px;
+    padding: 0px;
+    border-style: solid;
+    border-color: darkgoldenrod;
+    border-radius: 0px;
+}
+
+/* Information container */
+
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 1em 13em;
+    justify-content: space-around;
+    padding: 0px 0px 50px 0px;
+}
+
+.choosecat {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 1em 0;
+}
+
+.cat {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    color: #1f2937;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    border: 8px solid #3882f6;
+}
+
+.image > img {
+    border-radius: 8px;
+}
