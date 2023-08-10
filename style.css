@@ -16,7 +16,7 @@ body {
     display: flex;
     color: #f9f8fa;
     background-color: #1f2937;
-    padding: 1em 13em;
+    padding: 1em 10em;
     align-items: center;
 }
 
@@ -31,6 +31,7 @@ body {
 .header-links {
     display: flex;
     margin-left: auto;
+    padding: 0px 6px 0px 0px;
     gap: 1em;
 }
 
@@ -46,6 +47,7 @@ body {
 
 .hero-text {
     text-align: left;
+    margin-right: 50px;
 }
 .hero {
     display: flex;
@@ -89,9 +91,7 @@ body {
     flex-basis: auto;
     height: 250px;
     padding: 0px;
-    border-style: solid;
-    border-color: darkgoldenrod;
-    border-radius: 0px;
+
 }
 
 /* Information container */
@@ -129,7 +129,7 @@ body {
 .image {
     width: 160px;
     height: 160px;
-    border-radius: 20px;
+    border-radius: 8px;
     border: 8px solid #3882f6;
 }
 
@@ -163,4 +163,61 @@ body {
     font-size: 18px;
     font-weight: 500;
     padding-right: 80px;
+}
+
+.CTA-box {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.cta-text {
+    text-align: left;
+    flex: 1;
+    display: block;
+}
+
+.cta-text {
+    color: #fff;
+    padding: 0;
+}
+
+.cta-text h3 {
+    margin: 30px 0px 0px 0px;
+    color: #fff;
+}
+
+.cta-text p {
+    margin: 0px 0px 30px 0px;
+    color: #fff;
+}
+
+
+
+.cta-btn {
+    flex: 1;
+    display: block;
+    text-align: center;
+    margin: 0px -244px 0px 0px;
+}
+
+.cta-btn button {
+    color: white;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer {
+    color: #fff;
+    background-color: #1f2937;
+    display: block;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
