@@ -55,6 +55,7 @@ body {
     flex-direction: row;
     height: 500px;
     align-items: center;
+    justify-content: center;
 }
 
 .main-text {
