@@ -89,7 +89,7 @@ body {
 
 .sidebyside-image {
     display: flex;
-    flex-basis: auto;
+    flex-basis: max-content;
     height: 250px;
     padding: 0px;
 
